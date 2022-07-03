@@ -1,4 +1,43 @@
-body
-{
-  font-size: 40pt;
+html{
+  background-color: #212121;
+}
+div{
+  margin-top: 20%;
+}
+
+button{
+  display: block;
+  border: 3px solid;
+  border-radius: 8px;
+  border-color: #408B60;
+  background: #28A048;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 3%;
+  font-family: Monospace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+}
+
+button:active{
+  display: block;
+  border: 3px solid;
+  border-radius: 8px;
+  border-color: #408B60;
+  background: #28A048;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: Monospace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
 }
