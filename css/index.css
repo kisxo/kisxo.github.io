@@ -1,43 +1,85 @@
-html{
-  background-color: #212121;
+body{
+  margin: 0%;
 }
-div{
-  margin-top: 20%;
+
+
+.groups_styles{
+  color: #3878C8;
+  font-family: Monospace;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding: 1%;
+  white-space: nowrap;
+}
+
+.groups_styles_head{
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+}
+
+.groups_tittle{
+  font-family: Sans-Serif;
+  font-size: 1.2em;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 button{
   display: block;
-  border: 3px solid;
-  border-radius: 8px;
+  border: 1.5px solid;
+  border-radius: 2px;
   border-color: #408B60;
   background: #28A048;
   color: white;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 0.5em;
+  padding: 4%;
+  font-family: Monospace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+#main-title {
   padding: 3%;
-  font-family: Monospace;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-              0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  
-}
-
-button:active{
-  display: block;
-  border: 3px solid;
-  border-radius: 8px;
-  border-color: #408B60;
-  background: #28A048;
+  background: #1e2327;
   color: white;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 1.4em;
-  font-family: Monospace;
+  text-align: left;
+  font-size: 2em;
+  font-family: Sans-Serif;
+  
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
               0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.div_table{
+  overflow-x: auto;
+}
+
+table {
+  border: 0.10em solid;
+  border-color: black;
+  width: 99%;
+  margin: auto;
   
 }
+td{
+}
+
+th {
+  background-color: #04AA6D;
+}
+
+tr:nth-child(even) {
+  background: #F2F2F2;
+}
+
+.tittle_column{
+  white-space: pre-wrap;
+}
+
